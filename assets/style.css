@@ -20,3 +20,47 @@
 /* =================================================================== */
 
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(30, 38%, 92%);
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product{
+    background-color: hsl(0, 0%, 100%);
+    width: 600px;
+    height: auto;
+    display: flex;
+}
+
+.product_img {
+    width: 50%;
+}
+
+.product_img picture,
+.product_img img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.product_img img {
+    object-fit: cover;
+}
+
+
+
